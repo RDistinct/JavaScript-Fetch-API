@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#0d1117 ;
+}
+body,
+input,
+textarea{
+    color: #fff;
+    font: "Roboto", sans-serif;
+}
+main{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.searchBox input{
+    height: 40px;
+    background-color: #fff;
+    color: #0d1117;
+    border-radius: 5px 0 0 5px;
+}
+.searchBox button{
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+    padding: .5rem 1.2rem ;
+}
+
+.pokemonBox img{
+    width: 300px;
+}
+.list-names{
+    margin-top: 4rem;
+}
+
+/* css styling */
+/* https://github.com/guidari/YT05-pokemon-simple-api/blob/master/styles.css */
