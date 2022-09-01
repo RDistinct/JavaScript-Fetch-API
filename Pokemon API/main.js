@@ -25,7 +25,8 @@ function getPokemonDetails(e){
 
                 <div class="pokemonInfo">
                     <h1>${makeFirstLetterCapital(data.name)}</h1>
-                    <p>Weight description: ${data.weight} </p>
+                    <span>Weight description: ${data.weight} </span>
+                    <span>Height: ${data.height}<span/>
                 </div>
                 
                 <div>

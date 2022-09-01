@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 75%;
+    max-width: 600px;*/display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+#addPost{
+    margin-top: 2rem;
+}
+#title,#body{
+    margin-top: 1rem;
+}
