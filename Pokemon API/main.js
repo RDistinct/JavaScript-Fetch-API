@@ -68,5 +68,7 @@ async function getPokemonDetails(e){
                     <p>Weight description: ${data.weight} </p>
                 </div>`
 
-    } catch(error){}
+    } catch(error){
+        `Sorry. Error: ${error}`
+    }
 }
